@@ -13,112 +13,260 @@
 
   </div>
 
-
-
 <img src="jarvis1.jpg"/>
 
-### Requirements:
+# Required Packages 📦
 
-<li>datetime</li>
-<li>os</li>
-<li> pyttsx3</li>
-<li> wikipedia</li>
-<li> speech_recognition </li>
-<li> webbrowser</li>
-<li> sys</li>
-<li> smtplib</li>
-<li>requests</li>
-<li>json</li>
-<li>defflib</li>
-<li>geocoder</li>
-<li>pyjokes</li>
-<li>psutil</li>
-<li> pyautogui</li>
-<li> opencv</li>
+Ensure you have the following Python packages installed before running J.A.R.V.I.S. You can install them using the provided command:
 
-<h2>Required Packages</h2>
-
-```
+```bash
 pip install -r requirements.txt
 ```
 
-> _ To install PyAudio on windows head over to https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio and download the .whl for your machine and run the installation as shown below, then install the remaining dependencies from the requirements.txt file. You may remove pyAduio from the requirements file if it interrupts your installation (its there for unix users)
+## List of Required Packages:
+
+1. **datetime** 📅 - Python module for working with dates and times.
+2. **os** 💻 - Python module providing a way to interact with the operating system.
+3. **pyttsx3** 🔊 - Text-to-speech conversion library in Python.
+4. **wikipedia** 📚 - Python library for interacting with Wikipedia.
+5. **speech_recognition** 🗣️ - Library for performing speech recognition.
+6. **webbrowser** 🌐 - Python module to open web browsers.
+7. **sys** 💼 - Python module providing access to some variables used or maintained by the interpreter.
+8. **smtplib** 📤 - Python module to send email using Simple Mail Transfer Protocol (SMTP).
+9. **requests** 🌐 - HTTP library for making requests to external servers.
+10. **json** 🧾 - Python module to work with JSON data.
+11. **defflib** 🛠️ - Library for working with data types and structures.
+12. **geocoder** 🌍 - Library for geocoding addresses and working with coordinates.
+13. **pyjokes** 😄 - Library for generating random jokes.
+14. **psutil** 🔄 - Cross-platform library for retrieving information on running processes and system utilization.
+15. **pyautogui** 🖱️ - Library for GUI automation using Python.
+16. **opencv** 📷 - Open Source Computer Vision library for image and video processing.
+
+## Installation of PyAudio on Windows:
+
+To install PyAudio on Windows, visit [this link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio), download the appropriate `.whl` file for your machine, and install it using the following command:
+
 ```bash
 pip install PyAudio‑0.2.11‑cp<version>‑cp<version>m‑win_amd<architecture>.whl
 ```
 
-### On Ubuntu based Linux distribution you need to install the following packages, so that the code works:
+> Note: Remove PyAudio from the requirements file if it interrupts your installation (it's there for Unix users).
 
-```
+## Additional Package for Linux (Ubuntu-based):
+
+If you are using an Ubuntu-based Linux distribution, install the following package to ensure proper functionality:
+
+```bash
 sudo apt-get update && sudo apt-get install espeak
-
 ```
 
-### What it does...
+Ensure all required packages are installed to experience the full functionality of J.A.R.V.I.S. If you encounter any issues during installation, refer to the troubleshooting tips or reach out for assistance. 🚀
 
-  <ul>
-   <li>Dynamic Authentication using Optical Face Recognition</li>
-<li>Send emails</li>
-  <li>Dynamic News Reporting at any time with api integration</li>
-  <li>Todo list generator, Yes it remembers all!</li> 
-<li>Open any website with just a voice command</li>
-<li>Plays Music</li>
-<li>Tells time</li>
-<li>Wikipedia powered AI</li>
-<li>Dictionary with Intelligent Sensing i.e. auto checking if spell mistake</li>
-<li>Weather Report such as temp, wind speed, humidity, weather description</li>
-<li>Latitude and longitude</li>
- <li>YouTube searching</li> 
- <li>Google Map searching</a>
- <li>YouTube Downloader, download any youtube video by just putting url of video</li>
- <li>Now Master can switch b/w J.A.R.V.I.S and F.R.I.D.A.Y, switch to female voice assistant</li>
-</ul>
 
-<table>
-  <tr>
-    <td><img src="images/Screenshot%20(138).png"/></td>
-      <td><img src="https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/face-600x900.png"/></td>
-    
+# Features 🚀
 
-</tr>
-<tr>
-<td><img src="images/email.jpg"/></td>
-<td><img src="https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/maxresdefault.jpg"/></td>
-</tr>
-<td><img src="https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/4-Best-Weather-Forecast-APIs-for-Development-of-Weather-Apps-624x304.jpeg"/></td>
-  <td><img src="https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/maxresdefault%20(1).jpg"/></td>
-</tr>
-<tr>
-  <td><img src="canny.jpg"/>
-          </td>
-  <td><img src="ImgContor.jpg"/>
-          </td>
-</tr>
-</table>
+Explore the impressive capabilities of J.A.R.V.I.S that make it your go-to personal assistant for a seamless and efficient experience.
 
-## Some Sneak peeks:
+## Dynamic Authentication using Optical Face Recognition 🔐
 
-<ul>
-  <li><h2> Jarvis, Are you there?</h2></li>
-  <li><h2> At your service, Sir</h2></li>
-  
-  <li><h2> Jarvis, What are today's news headlines? can you tell?</h2></li>
-  <li><h2>Ofcourse, Sir -> Then news headlines   Would you like to visit the news url?</h2></li>
-  
-  <li><h2> Search Youtube</h2></li>
-  <li><h2>What you want to search, Sir</h2></li>
-  <li><h2>Coding for kids</h2></li>
-  <li><h2> Opens youtube in browser with desired search query results </h2></li>
-  
-   <li><h2> Jarvis, Can you send email to Gaurav?</h2></li>
-  <li><h2>What I say sir, Sir</h2></li>
-   <li><h2>Gaurav is a good boy</h2></li>
-  <li><h2> Email is sent successfully, Sir</h2></li>
-  
-  # And so on....
-  
-<a href="https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html" target="_blank">Read complete blog article</a>
+Enhance your security with J.A.R.V.I.S's advanced face recognition, providing dynamic authentication tailored to your unique facial features.
 
-## Contribution:
-Thank you for your interest in contributing to our Repo! Pull requests are welcome. For fixing typos, please make a PR with your fixes. We are happy for every contribution.
-A lot can be done with this project. Core AI chatbot like functionality can be added. More python scripts can be associated. Pull requests for any such changes are accepted. Feel free to fork this project and make your own changes too.
+## Email Integration 📧
+
+Effortlessly send emails through J.A.R.V.I.S. Just dictate the content, and your email is on its way. Stay connected without lifting a finger.
+
+## Dynamic News Reporting with API Integration 📰
+
+Stay informed with dynamic news reporting at any time. J.A.R.V.I.S integrates with APIs to provide up-to-date news headlines directly to you.
+
+## Todo List Generator ✅
+
+Let J.A.R.V.I.S be your task manager. Generate and manage your to-do list effortlessly, ensuring you never miss a beat.
+
+## Voice-Activated Web Browsing 🌐
+
+Navigate the web with just your voice. Open any website seamlessly, bringing a new level of convenience to your internet browsing experience.
+
+## Music Player 🎵
+
+Let J.A.R.V.I.S set the mood. Simply ask, and your personal assistant will play your favorite tunes, creating the perfect ambiance.
+
+## Time Reporting ⌚
+
+Stay on top of your schedule. J.A.R.V.I.S can tell you the time, ensuring you're always aware and in control.
+
+## Wikipedia-Powered AI 🤓
+
+Access a wealth of information with J.A.R.V.I.S's Wikipedia integration. Ask questions, gather insights, and expand your knowledge effortlessly.
+
+## Intelligent Dictionary 📖
+
+Perfect your language with J.A.R.V.I.S's intelligent dictionary. Auto-check for spelling mistakes and enrich your vocabulary.
+
+## Weather Report 🌦️
+
+Stay ahead of the weather with J.A.R.V.I.S. Get real-time updates on temperature, wind speed, humidity, and weather descriptions.
+
+## Location Services 🌍
+
+J.A.R.V.I.S provides location-based information, including latitude and longitude, for enhanced geographical awareness.
+
+## YouTube and Google Map Integration 🎥🗺️
+
+Effortlessly search YouTube and Google Maps using voice commands, making content discovery and navigation a breeze.
+
+## YouTube Video Downloader 📹
+
+Download your favorite YouTube videos by providing the video URL. J.A.R.V.I.S simplifies the process, ensuring your media is always at your fingertips.
+
+## Voice Switching 🔄
+
+Switch between J.A.R.V.I.S and F.R.I.D.A.Y effortlessly, experiencing a dynamic shift between male and female voice assistants.
+
+Unleash the power of J.A.R.V.I.S and let it redefine the way you interact with technology. 🌐🔊🤖
+
+
+# Sneak Peeks 🕵️‍♂️
+
+Get a glimpse into the seamless and interactive world of J.A.R.V.I.S through these intriguing scenarios:
+
+## Conversation 1:
+
+**User:** Jarvis, are you there?  
+**J.A.R.V.I.S:** At your service, Sir. 🤖
+
+## Conversation 2:
+
+**User:** Jarvis, what are today's news headlines? Can you tell?  
+**J.A.R.V.I.S:** Of course, Sir -> Then news headlines. Would you like to visit the news URL? 📰
+
+## Conversation 3:
+
+**User:** Search YouTube.  
+**J.A.R.V.I.S:** What do you want to search, Sir? 🤔  
+**User:** Coding for kids.  
+**J.A.R.V.I.S:** Opens YouTube in the browser with desired search query results. 🎬
+
+## Conversation 4:
+
+**User:** Jarvis, can you send an email to Gaurav?  
+**J.A.R.V.I.S:** What should I say, Sir? 📝  
+**User:** Gaurav is a good boy.  
+**J.A.R.V.I.S:** Email is sent successfully, Sir. 🚀
+
+## Scenario 1:
+
+![Screenshot 1](images/Screenshot%20(138).png)
+
+## Scenario 2:
+
+![Face Recognition](https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/face-600x900.png)
+
+## Scenario 3:
+
+![Email](images/email.jpg)
+
+## Scenario 4:
+
+![Weather Report](https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/4-Best-Weather-Forecast-APIs-for-Development-of-Weather-Apps-624x304.jpeg)
+
+## Scenario 5:
+
+![YouTube Video Downloader](https://github.com/GauravSingh9356/J.A.R.V.I.S/blob/master/images/maxresdefault%20(1).jpg)
+
+## Computer Vision:
+
+![Canny Edge Detection](canny.jpg)  
+*Canny Edge Detection*
+
+![Image Contours](ImgContor.jpg)  
+*Image Contours*
+
+Explore the capabilities of J.A.R.V.I.S with these sneak peeks and witness how it can simplify tasks and enhance your digital experience. 🌐🔍
+
+
+# Contribution Guidelines 🤝
+
+We welcome and appreciate your contributions to make J.A.R.V.I.S even more robust and versatile. Before you start contributing, please take a moment to review the guidelines below.
+
+## Getting Started 🚀
+
+1. Fork the J.A.R.V.I.S repository to your GitHub account.
+2. Clone your forked repository to your local machine:
+
+    ```bash
+    git clone https://github.com/your-username/J.A.R.V.I.S.git
+    ```
+
+3. Create a new branch for your feature or bug fix:
+
+    ```bash
+    git checkout -b feature-name
+    ```
+
+## Making Changes 🛠️
+
+- Ensure your code follows the project's coding standards.
+- Include relevant comments and documentation for new features or changes.
+
+## Testing 🧪
+
+- Test your changes thoroughly to ensure they work as expected.
+- Include tests if applicable.
+
+## Submitting Changes 📤
+
+1. Commit your changes:
+
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+
+2. Push to the branch:
+
+    ```bash
+    git push origin feature-name
+    ```
+
+3. Open a pull request (PR) against the `main` branch of the J.A.R.V.I.S repository.
+
+## Code of Conduct 📜
+
+By participating in this project, you agree to abide by the [Code of Conduct](CODE_OF_CONDUCT.md). Be respectful and considerate of others.
+
+## Contribution License 📄
+
+By contributing to J.A.R.V.I.S, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+
+## Acknowledgments 🙏
+
+We appreciate and acknowledge all contributors who help make J.A.R.V.I.S better with their valuable time and efforts.
+
+Feel free to reach out to us if you have any questions or need assistance with the contribution process.
+
+Happy coding! 🚀
+
+# License 📄
+
+J.A.R.V.I.S is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Overview of the MIT License:
+
+The MIT License is a permissive open-source license that allows users to do anything they want with the code, as long as they include the original copyright and license notice in any copy of the code or substantial portion of it.
+
+### Key Points of the MIT License:
+
+- **Freedom:** Users have the freedom to use, modify, and distribute the software without any restrictions.
+- **No Warranty:** The software is provided "as is," and the authors or copyright holders are not liable for any damages or issues.
+- **License and Copyright Notice:** Users must include the original copyright and license notice in any substantial portion of the code.
+
+By using, modifying, or distributing J.A.R.V.I.S, you agree to comply with the terms of the MIT License. For a detailed overview of the license terms, please refer to the [LICENSE](LICENSE) file.
+
+Feel free to leverage the power of J.A.R.V.I.S for your projects, and remember to include the appropriate attribution and license details when sharing or redistributing the code. 🤖🚀
+
+
+# What is left to do.
+
+- Proper image address.
+- Checking the urls.
+- Re-Reading the whole blog.
